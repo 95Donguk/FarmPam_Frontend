@@ -48,7 +48,7 @@
       </div>
       <div class="my-price" v-if="myBid">
         <span>시작 입찰가</span>
-        <span> {{ myPrice.content }}원 </span>
+        <span> {{receiveList[0].content  }}원 </span>
       </div>
 
       <!--      bid modal-->
@@ -84,7 +84,7 @@
 
             <div class="current-price-bid-box" v-if="myBid">
               <span>시작 입찰가</span>
-              <span> {{ myPrice.content }}원 </span>
+              <span> {{ receiveList[0].content }}원 </span>
             </div>
           </div>
           <div v-if="!myBid" class="my-FarmPay">
