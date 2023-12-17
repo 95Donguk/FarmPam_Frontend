@@ -176,7 +176,7 @@
     display: flex;
     flex-direction: column;
     /*justify-content: flex-start;*/
-    background-color: #FF4500;
+    background-color: #98CB98;
     border-radius: 30px;
 }
 .btn-a-bid {
@@ -187,12 +187,16 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    background-color: #FF4500;
+    background-color: #98CB98;
     position: fixed;
     bottom: -10px;
+
     /*border-radius: 30px;*/
 }
-
+.btn-a-bid .bid-time {
+    font-size: 22px;
+    margin-bottom: 0;
+}
 
 .make-a-bid .bid-time {
     font-size: 22px;
