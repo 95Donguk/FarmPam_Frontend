@@ -25,6 +25,7 @@
     margin-bottom: 10px;
     background-color: #98CB98;
     color: white;
+    box-shadow: 1px 1px 5px black;
 }
 
 .detail-profile .detail-profile-box .review-avg {
@@ -72,6 +73,7 @@
 
 .content-title {
     font-size: 25px;
+    box-shadow: 1px 1px 5px;
 }
 
 .tags-container {
@@ -119,7 +121,10 @@
     height: 160px;
     position: fixed;
     bottom: 0;
-    background-color: white;
+    background-color: #e5e5e5;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 1px 1px 5px black;
 }
 
 .item-footer .current-price {
@@ -129,6 +134,7 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #444444;
+
 }
 
 .item-footer .my-price {
@@ -176,8 +182,9 @@
     display: flex;
     flex-direction: column;
     /*justify-content: flex-start;*/
-    background-color: #FF4500;
+    background-color: #98CB98;
     border-radius: 30px;
+    box-shadow: 1px 1px 5px black;
 }
 .btn-a-bid {
     margin: 10px auto;
@@ -187,12 +194,17 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    background-color: #FF4500;
+    background-color: #98CB98;
     position: fixed;
     bottom: -10px;
+    border-top: 1px solid #444444;
+
     /*border-radius: 30px;*/
 }
-
+.btn-a-bid .bid-time {
+    font-size: 22px;
+    margin-bottom: 0;
+}
 
 .make-a-bid .bid-time {
     font-size: 22px;
