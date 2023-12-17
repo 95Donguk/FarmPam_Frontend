@@ -81,14 +81,14 @@
               v-if="!myBid"
             /><span class="bid-won" v-if="!myBid">원</span>
 
-            <div v-if="!myBid" class="my-FarmPay">
-              <span>내 팜페이: {{Number(farmMoney).toLocaleString() }} 원</span>
-            </div>
 
             <div class="current-price-bid-box" v-if="myBid">
               <span>시작 입찰가</span>
               <span> {{ myPrice.content }}원 </span>
             </div>
+          </div>
+          <div v-if="!myBid" class="my-FarmPay">
+            <span>내 팜페이: {{Number(farmMoney).toLocaleString() }} 원</span>
           </div>
 
         </div>
@@ -468,6 +468,7 @@ export default {
   justify-content: space-around;
   align-items: flex-start;
   border-bottom: 1px solid #444444;
+
 }
 
 .bid-container{
@@ -486,11 +487,13 @@ export default {
   overflow-y: scroll;
 }
 .my-FarmPay{
+
   width: 320px;
   height: 30px;
   font-size: 20px;
-  margin: 20px auto;
+  margin: 90px auto 20px;
   text-align: center;
-  color: #0037ff;
+  color: #0033ff;
+  text-shadow: 1px 1px 5px #808080;
 }
 </style>
