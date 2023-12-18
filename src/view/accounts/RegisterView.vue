@@ -517,6 +517,6 @@ button:hover {
 }
 
 .registerBtn {
-  margin-left: 100px;
+  margin-left: 52px;
 }
 </style>
